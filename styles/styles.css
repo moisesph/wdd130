@@ -23,9 +23,12 @@ h1{
 img {
     width: 150px;
     height: auto;
+    margin: 15px;
     border: 1px var(--color-black);            
     padding: 2px;
-    box-shadow: 0 0 30px var(--color-grey);            
+    box-shadow: 0 0 30px var(--color-grey);   
+    background-color: var(--color-grey);         
+    color: var(--color-white);
 }
 
 p {
@@ -34,7 +37,8 @@ p {
 
 
 main {
-    width:840px;
+    width:100%;
+    height: auto;
 }
 
 
