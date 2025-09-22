@@ -47,7 +47,7 @@ p {
 
 
 main {
-    width:840px;
+    max-width:570px;
     height: auto;
     padding: 5px;
 }
@@ -72,7 +72,8 @@ main img {
     width:150px;
     height:auto;
     position: relative;
-    float: right ;
+    float: inline-end;
+    right: 10px;
 }
 
 
@@ -89,6 +90,12 @@ text-align: center;
     margin: 1rem;
     border: 1px var(--color-black);
     background-color: var(--color-orange-light);
-    padding: 1rem;
+    padding: 1.6rem;
     color:var(--color-grey)
+}
+
+aside h2{
+position: absolute;
+bottom: 310px;
+left: 125px;
 }
