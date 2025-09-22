@@ -95,7 +95,7 @@ text-align: center;
 }
 
 aside h2{
-position: absolute;
-bottom: 310px;
-left: 125px;
+position: relative;
+top:50px;
+left: 0px;
 }
