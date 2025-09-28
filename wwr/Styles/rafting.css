@@ -64,8 +64,9 @@ h1 {
 }
 
 .hero article {
-    color: #140707;
-    
+    color: #ffffff;
+    position:absolute;
+    top: 60px;
 
 }
 
