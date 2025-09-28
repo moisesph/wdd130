@@ -50,6 +50,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    float:right
 }
 
 h1 {
@@ -65,7 +66,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    color: #1a1212;
+    color: #ffffff;
 
 }
 
