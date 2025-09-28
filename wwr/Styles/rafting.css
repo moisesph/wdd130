@@ -50,7 +50,6 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    float:right
 }
 
 h1 {
@@ -65,14 +64,14 @@ h1 {
 }
 
 .hero article {
-    position: absolute;
-    color: #ffffff;
+    color: #140707;
+    
 
 }
 
 .hero article img{
     float: right;
     width: 125px;
-    border: #000000;
+    border: 2px #000000;
     margin: 15px;
 }
