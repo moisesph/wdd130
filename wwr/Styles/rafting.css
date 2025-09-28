@@ -5,6 +5,7 @@
 --accent2-color: rgb(211, 59, 59);
 --heading-font: "Times New Roman", "Georgia", serif;
 --body-font: Arial, Helvetica, sans-serif;
+}
 
 *{
     margin: 0;
@@ -74,6 +75,4 @@ h1 {
     width: 125px;
     border: 2px solid #000;
     margin: 15px;
-}
-
 }
