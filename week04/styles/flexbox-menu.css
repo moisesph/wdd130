@@ -9,12 +9,15 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
+    flex-wrap: wrap;   <--\HERE IS THE ISSUE, YOU NEED TO DELET FLEX, MAX AND MARGIN IF YOU HAVE ISSUES-->
     max-width: 900px;
     margin: 0 auto;
-    justify-content: space-around;
-    align-items: center;
+
+}
+
+nav li{
+    flex: 1 1 100%;
 }
 
 nav a {
@@ -53,3 +56,4 @@ p {
 #devtools-btn:active {
     background-color: #2a3a4a;
 }
+
