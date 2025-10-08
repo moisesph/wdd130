@@ -1,5 +1,5 @@
 :root {
---primary-color: rgb(32, 224, 208);
+--primary-color: rgb(49, 192, 192);
 --secondary-color: rgb(240, 240, 240);
 --accent1-color: rgb(28, 19, 31);
 --accent2-color: rgb(211, 59, 59);
@@ -17,6 +17,10 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
 }
 
 body {
@@ -75,4 +79,22 @@ h1 {
     width: 125px;
     border: 2px solid #000;
     margin: 15px;
+}
+
+
+nav {
+    align-self: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.title {
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
