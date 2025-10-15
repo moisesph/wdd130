@@ -16,7 +16,7 @@
         <img class="logo" src="images/logo-one-small.jpeg" alt="Rapids logo">
             <nav aria-label="Main navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/wdd130/index.html">Home</a></li>
                 <li><a href="about.html" aria-current="page">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -42,29 +42,47 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
+
+
+
+    
     <div class="form-container">
         <form>
-            <fieldset>
-                <legend>Contact Information</legend>
-
                 <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname" required>
 
                 <label for="useremail">Email:</label>
                 <input type="email" id="useremail" name="useremail" required>
 
+            <div class="purpose-group-wrapper">
+                <div class="purpose-label">
+                    <span>Message</span>
+                    <span>Purpose:</span>
+                </div>
+                <div class="purpose-group">
+                    <label><input type="checkbox" name="purpose" value="general"> General Inquiry</label>
+                    <label><input type="checkbox" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="checkbox" name="purpose" value="website"> Website Suggestion</label>
+                </div>
+            </div>
+
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label>
-                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                <label class="subscribe">
+                    <input type="checkbox" name="subscribe">
+                    <span>Please subscribe me to the monthly newsletter</span>
                 </label>
 
+
                 <button type="submit">Send Message</button>
-            </fieldset>
         </form>
     </div>
 </section>
+
+
+
 
 <section id="serve">
     <h2>We Are Here to Serve You</h2>
