@@ -19,6 +19,7 @@ body{
     font-family: var(--body-font);
     color: var(--accent1-color);
     background: var(--secondary-color);
+    
 }
 
 
@@ -53,12 +54,14 @@ header, main, footer {
     max-width: 840px;
     margin: 0 auto;
     padding: 0 12px;
+    
 }
 
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    
 }
 
 header .logo{
@@ -73,6 +76,8 @@ header{
     gap: 12px;
     background-color: var(--primary-color);
     padding: 12px;
+    color: black;
+    border: 2px solid black;
 }
 
 .socialmedia a {
@@ -258,7 +263,11 @@ h2 {
 
 footer {
     margin-top: 18px;
-    padding: 8px 0;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    color: black;
+    border: 2px solid black;
 }
 
 footer .footer-content {
@@ -285,5 +294,47 @@ footer .socialmedia img {
     height: 36px;
     display: block;
     object-fit: contain;
+}
+
+
+
+
+
+#serve h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+
+.serve {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.serve figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.serve img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.contact-head{
+    text-align: center; margin: 20px 0;
+}
+
+
+form{
+    
 }
 
