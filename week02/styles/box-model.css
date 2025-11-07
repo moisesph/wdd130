@@ -1,9 +1,17 @@
 .callout {
-	
+    max-width: 450px;
+	background-color: darkblue;
+    padding: 20px;
+    color: rgb(209, 209, 209);
 }
 
 .callout img {
-	
+	float: right;
+    margin: ;
+    border: ;
+    background-color: ;
+    width: 25%;
+    height: auto;
 }
 
 blockquote {
