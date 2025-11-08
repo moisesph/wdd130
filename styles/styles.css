@@ -4,9 +4,9 @@
 }
 
 main{
-    width: 840px;
-    margin: 0 auto;
 
+    margin: 0 auto;
+    max-width: 840px;
 }
 
 main img{
@@ -52,7 +52,7 @@ h1 {
     color: darkblue
 }
 
-img{ 
+main img{ 
     width: 150px;
     height: auto;
     border:  1px solid black;
