@@ -1,20 +1,24 @@
-*{
+:root {
+    --heading-similar-color: darkblue;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
 
-main{
+main {
 
     margin: 0 auto;
     max-width: 840px;
 }
 
-main img{
+main img {
     width: 150px;
     height: auto;
 }
 
-aside{
+aside {
     width: 330px;
     margin: 10px;
     border: 1px solid black;
@@ -24,42 +28,41 @@ aside{
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
 
 
-footer{
+footer {
     margin-top: 1.5rem;
     border-top: 1px solid black;
     text-align: center;
 }
 
-
-nav{
-    background-color: darkblue;
+nav {
+    background-color: var(--heading-similar-color);
     padding: 10px;
 }
 
-nav a{
+nav a {
     color: white;
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue
+    color: var(--heading-similar-color);
 }
 
-main img{ 
+main img {
     width: 150px;
     height: auto;
-    border:  1px solid black;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
-p{
+p {
     padding: 0;
 }
