@@ -120,11 +120,18 @@ article {
     position: relative;
 }
 
+.hero h1,
+.hero article {
+    position: absolute;
+
+}
+
 .hero article img {
     float: right;
     width: 145px;
     border-radius: 5%;
 }
+
 
 .hero img {
     width: 100%;
