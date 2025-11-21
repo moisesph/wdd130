@@ -3,6 +3,7 @@ body {
     margin: 1rem;
 }
 
+
 nav {
     background-color: #36454f;
 }
@@ -31,6 +32,8 @@ p {
     padding: 1rem;
     background-color: #bed;
     max-width: 400px;
+    display: flex;
+    flex-direction: row;
 }
 
 #devtools-btn {
@@ -52,4 +55,8 @@ p {
 
 #devtools-btn:active {
     background-color: #2a3a4a;
+}
+
+.XD {
+    display: flex;
 }
