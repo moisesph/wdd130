@@ -140,11 +140,31 @@ article {
 /* Selectors */
 
 .history {
-    background-color: black;
+    margin: 0;
+    padding: 0;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
+
+.history p {
+    align-self: center;
+    margin: 2px;
+    padding: 0;
+    padding-left: 1rem;
+}
+
+.historytittle {
+    grid-column: 1/4;
+}
+
+.history img {
+    width: 14rem;
+    border-radius: 1rem;
+    float: right;
+    justify-self: center;
+}
+
 
 .socialmedia {
     display: flex;
