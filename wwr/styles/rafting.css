@@ -8,7 +8,7 @@
 }
 
 * {
-    margin: 5px 0px 0px 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -84,6 +84,8 @@ h2 {
 }
 
 
+
+
 article {
     position: absolute;
     top: 13rem;
@@ -125,7 +127,14 @@ footer,
     width: 840px;
     margin: 0 auto;
 
+
 }
+
+/* main here to put space between header and main */
+main {
+    margin-top: 5px;
+}
+
 
 h1,
 h2 {
@@ -223,7 +232,7 @@ article {
 
 
 .examples {
-
+    margin-top: 5px;
     position: relative;
     padding: 0;
     height: 302px;
