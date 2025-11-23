@@ -101,15 +101,17 @@ article {
 
 footer {
 
-    border-top: 1px solid rgb(184, 184, 184);
+    /* border-top: 1px solid rgb(184, 184, 184); */
     background-color: var(--accent2-color);
+    height: 150px;
 
 }
 
 footer div {
     position: relative;
-    transform: scale(0.7);
+    transform: scale(0.74);
     transform-origin: top left;
+
 }
 
 
@@ -181,6 +183,7 @@ article {
     gap: 20px;
     align-items: center;
 
+
 }
 
 .socialmedia a {
@@ -226,15 +229,18 @@ article {
     height: 302px;
     background-color: var(--background-color);
 
+
 }
 
 .examples2 {
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+
     padding: 10px;
     margin: 15px;
     place-items: center;
+    margin-top: 33px;
 
 }
 
