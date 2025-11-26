@@ -20,7 +20,6 @@ header {
     display: grid;
     grid-template-columns: 220px 1fr;
     align-items: center;
-
 }
 
 header img {
@@ -105,15 +104,30 @@ footer {
 
     /* border-top: 1px solid rgb(184, 184, 184); */
     background-color: var(--accent2-color);
-    height: 150px;
+    height: 90px;
 
 }
 
 footer div {
+    margin-top: 0.3rem;
     position: relative;
-    transform: scale(0.74);
-    transform-origin: top left;
+    color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 0.8rem;
+}
 
+footer p {
+    display: flex;
+    justify-self: right;
+    align-items: center;
+}
+
+footer p,
+.socialmedia {
+    margin: 1rem 0.5rem;
+    padding: 0;
+    bottom: 1rem;
 }
 
 
@@ -127,8 +141,9 @@ footer,
     width: 840px;
     margin: 0 auto;
 
-
 }
+
+
 
 /* main here to put space between header and main */
 main {
@@ -190,19 +205,21 @@ article {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    align-items: center;
-
-
+    justify-content: right;
 }
+
 
 .socialmedia a {
     text-decoration: none;
+    width: 4rem;
+    display: flex;
+    justify-self: right;
+    align-items: center;
 
 }
 
 .socialmedia img {
-
-    width: 5rem;
+    width: 2rem;
 }
 
 .hero {
