@@ -4,40 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XD</title>
+    <title>Poll Form</title>
     <meta name="description" content="XDD">
     <meta name="author" content="Moises Pleytez">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles/poll-form.css">
 
 </head>
 
 <body>
-    <form>
-        <label for="fullname">Fullname</label>
-        <input type="text" id="fullname" name="fullname" required>
-
-        <label for="useremail">Email</label>
-        <input type="text" id="useremail" name="useremail" required>
 
 
-        <label for="browser">What is your favorite browser?</label>
-        <select name="browser" id="browser">
-            <option value="chrome">Chrome</option>
-            <option value="mozzilla">Mozzilla</option>
-            <option value="firefox">Firefox</option>
-        </select>
+    <main>
+
+        <h1>WDD 130 l HTML Form - User Poll</h1>
+        <form>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Fullname</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="text" id="useremail" name="useremail" required>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column2 column1">
+                    <label for="browser">What is your favorite browser? </label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="mozzilla">Mozzilla</option>
+                        <option value="firefox">Firefox</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="form-item column2 column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <br>
+
+                <label for="feedback">List the places you have lived.</label>
+                <textarea id="feedback" name="message" rows="4"
+                    placeholder="Peru, Laguyana (Nadie se acuerda)"></textarea>
 
 
-        <label for="pet">Do you have a household pet?</label>
-        <input type="checkbox" id="pet" name="pet">
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
 
 
-        <label for="feedback">List the places you have lived.</label>
-        <textarea id="feedback" name="message" rows="4" placeholder="Peru, Laguyana (Nadie se acuerda)"></textarea>
-
-        <button type="submit">Submit My Data</button>
-    </form>
-
+    <footer>© 2025 l HTML Form - User Poll Activity l Moises Pleytez</footer>
 
 </body>
 
