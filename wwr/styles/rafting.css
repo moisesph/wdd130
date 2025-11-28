@@ -362,6 +362,11 @@ form {
 }
 
 
+fieldset {
+    border: none;
+}
+
+
 .purpose {
     display: flex;
     align-items: center;
