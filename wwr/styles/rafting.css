@@ -56,7 +56,6 @@ nav a {
 
 body {
     font-family: var(--body-font);
-    color: var(--color-in-background);
 }
 
 
@@ -80,6 +79,7 @@ h2 {
     opacity: 0.7;
     background-color: var(--accent2-color);
     color: #fff;
+
 }
 
 
@@ -109,7 +109,7 @@ footer {
 }
 
 footer div {
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     position: relative;
     color: black;
     display: grid;
@@ -170,13 +170,14 @@ article {
 
 
 
+
 .history {
     margin: 0;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--background-color);
-
+    color: white;
 }
 
 .history p {
@@ -253,9 +254,8 @@ article {
     position: relative;
     padding: 0;
     height: 302px;
+    color: white;
     background-color: var(--background-color);
-
-
 }
 
 .examples2 {
@@ -279,4 +279,182 @@ article {
     border: 1px solid white;
     border-radius: 6px;
 
+}
+
+
+
+
+/* The contact Information */
+
+
+.address {
+    padding: 0;
+    margin: 0;
+}
+
+.address h1 {
+    padding: .6rem 0 0 0;
+}
+
+.address h2 {
+    width: 100%;
+    padding: 0 0 1rem 0;
+    text-align: center;
+    margin: 0;
+    font-size: 0.8rem;
+    background-color: unset;
+    opacity: 1;
+}
+
+.address h1 {
+    /* Take off the red thing */
+    background-color: unset;
+    font-size: 1.4rem;
+    opacity: 1;
+    position: inherit;
+}
+
+.contact {
+    margin: 0;
+    padding: 0 0 .3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+
+
+.q1 input,
+.q2 input {
+
+    margin: .2rem;
+    padding: .3rem;
+    width: 15rem;
+    margin-left: 2rem;
+}
+
+.q1 input form,
+.q2 input form {
+
+    padding: 0 0.3rem 0.1rem;
+    font-size: .8rem;
+    margin-left: 2rem;
+}
+
+
+.q2 input {
+    margin-left: 2.1rem;
+}
+
+
+
+.c1,
+.c2,
+.c3 {
+    padding: .3rem 0;
+
+}
+
+
+form {
+    margin-left: 3rem;
+    font-size: .7rem;
+}
+
+
+.purpose {
+    display: flex;
+    align-items: center;
+    margin: .4rem 0;
+}
+
+
+.purpose p {
+    margin-left: -.5rem;
+    /* o nada */
+}
+
+
+.separate-text {
+    /* absolute to center it */
+    position: absolute;
+    margin-left: .4rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.message textarea {
+
+    display: block;
+    width: 19.2rem;
+    margin: .2rem 0;
+}
+
+#message::placeholder {
+    padding: 0.1rem;
+    padding-left: 0.4rem;
+}
+
+
+.check {
+    display: flex;
+    padding: .4rem 0;
+
+}
+
+.check-text {
+    padding-left: .4rem;
+}
+
+
+
+button {
+    background-color: rgb(245, 242, 242);
+    color: 2px solid rgb(155, 155, 155);
+    border-radius: .4rem;
+    width: 19.2rem;
+    padding: .3rem 0;
+
+}
+
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+
+
+.examples-employees {
+    background-color: rgb(245, 242, 242);
+    height: 190px;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+
+.examples3 {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px;
+    place-items: center;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
+.examplesemployee {
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color: var(--background-color);
+}
+
+
+.employee-heading {
+    color: rgb(0, 0, 0);
+    background-color: unset;
+    opacity: 1;
+    padding: 0.5rem;
 }
