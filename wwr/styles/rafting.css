@@ -531,8 +531,8 @@ button:hover {
 
 
 .adventure-heading {
-    color: var(--secondary-color);
-    background-color: unset;
+
+    background-color: var(--accent2-color);
     opacity: 1;
     padding: 0.5rem;
     margin-top: 1.8rem;
@@ -594,4 +594,8 @@ button:hover {
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+section a {
+    text-decoration: none;
 }
