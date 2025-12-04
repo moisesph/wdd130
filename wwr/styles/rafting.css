@@ -3,7 +3,9 @@
     --secondary-color: rgb(240, 202, 252);
     --accent2-color: rgb(130, 204, 238);
     --body-font: Arial, Helvetica, sans-serif;
-    --background-color: #122A35;
+    --background-color: rgb(56, 69, 75);
+
+    --border-color-alternative: rgb(23, 151, 211);
 }
 
 * {
@@ -117,6 +119,14 @@ footer p {
     display: flex;
     justify-self: right;
     align-items: center;
+}
+
+
+aside {
+    width: 17rem;
+    top: 10px;
+    position: fixed;
+    top: 20rem;
 }
 
 footer p,
@@ -283,10 +293,6 @@ article {
 /* The contact Information */
 
 
-.address {
-    padding: 0;
-    margin: 0;
-}
 
 .address h1 {
     padding: .6rem 0 0 0;
@@ -453,11 +459,6 @@ button:hover {
 }
 
 
-.examplesemployee {
-    padding: 0;
-    color: rgb(0, 0, 0);
-    background-color: var(--background-color);
-}
 
 
 .employee-heading {
@@ -465,4 +466,132 @@ button:hover {
     background-color: unset;
     opacity: 1;
     padding: 0.5rem;
+}
+
+
+
+
+
+
+
+/* INDEX.HTML */
+
+.center {
+    padding: 0;
+    margin: 0;
+}
+
+.sign {
+    position: absolute;
+    top: 14rem;
+    left: 12.9rem;
+    padding: 1rem 0.3rem;
+    border: 1px outset var(--secondary-color);
+    border-radius: 8px;
+    background-color: rgba(238, 247, 235, 0.5);
+    width: 40%;
+    font-weight: 600;
+    font-size: 1.3rem;
+
+}
+
+.log-title {
+    margin-block: .7rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.submit-sign,
+.log-title {
+    text-align: center;
+}
+
+
+
+
+.adventure {
+    background-color: rgb(248, 248, 248);
+    margin: 2rem 0;
+    height: 350px;
+    border-top: 2px solid var(--accent2-color);
+    border-bottom: 2px solid var(--accent2-color);
+}
+
+
+.adventure-container {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3.6rem;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+
+
+.adventure-heading {
+    color: var(--secondary-color);
+    background-color: unset;
+    opacity: 1;
+    padding: 0.5rem;
+    margin-top: 1.8rem;
+
+}
+
+
+.examples .adventure-container img {
+    width: 220px;
+    height: 135px;
+    margin: 0 auto;
+    object-fit: cover;
+    border: 1px solid var(--accent2-color);
+    border-radius: 6px;
+
+}
+
+
+.offering,
+.offering div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.offering div {
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+    height: 350px;
+    border: thick double var(--border-color-alternative);
+    width: 19rem;
+    align-items: center;
+    text-align: center;
+}
+
+.offering div img {
+    width: 12rem;
+    height: 130px;
+}
+
+
+
+.requirements {
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+    height: 9rem;
+    border: dashed var(--border-color-alternative);
+    align-items: center;
+    text-align: center;
+
+}
+
+.requirements ul {
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+
+.requirements li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
