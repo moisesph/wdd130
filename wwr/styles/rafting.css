@@ -699,3 +699,15 @@ section a {
     padding-right: 3rem;
     margin-bottom: 1.4rem;
 }
+
+.table-cost {
+    border-top: 2px solid rgb(190, 227, 248);
+    display: flex;
+    justify-content: center;
+    margin-right: 3.5rem;
+
+}
+
+.table-cost2 {
+    margin-top: 1.2rem;
+}
