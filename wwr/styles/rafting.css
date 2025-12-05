@@ -685,11 +685,12 @@ section a {
 
 .invitation h2 {
     writing-mode: sideways-lr;
+
 }
 
 .invitation div {
     position: absolute;
-    left: 30rem;
+    left: 41.5rem;
 }
 
 .invitation img {
