@@ -217,6 +217,7 @@ article {
     margin: 2px;
     padding: 0;
     padding-left: 1rem;
+    padding-right: 1rem;
 
 }
 
@@ -690,7 +691,7 @@ section a {
 
 .invitation div {
     position: absolute;
-    left: 41.5rem;
+    left: 28.8rem;
 }
 
 .invitation img {
